@@ -24,7 +24,7 @@ The investigation covered the following areas:
 
 The repository is a **Sample ASP.NET Core application** designed for Azure Pipelines documentation. It is built using:
 - **Framework:** .NET 6.0 (ASP.NET Core)
-- **Language:** C# 
+- **Language:** C#
 - **Project Type:** Web Application (MVC)
 
 ### 2. Project Structure
@@ -136,9 +136,10 @@ The only files with "java" in their names are **JavaScript** files, which are st
 
 1. **No action required** - The project is correctly identified as a .NET Core application
 2. If Java integration is needed in the future, consider:
-   - Using IKVM.NET for Java library interoperability
-   - Setting up a separate Java microservice
+   - Setting up a separate Java microservice with inter-service communication
    - Using gRPC or REST APIs for cross-platform communication
+   - Containerizing Java components and orchestrating with Docker/Kubernetes
+   - Using message queues (RabbitMQ, Kafka) for asynchronous integration
 
 ## Investigation Methodology
 
